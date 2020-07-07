@@ -23,11 +23,9 @@ while True:
                 filetobemoved = path  + str(filename)
                 if (".img"  in i or".jpg" in i or ".jpeg" in i or ".png" in i) :
                     shutil.move( filetobemoved , r"C:\Users\hp\Desktop\PYTHON ORGANISATION FOLDER\Images")
-                if (".doc"  in i or".docx" in i or ".pdf" in i or ".txt" in i) : 
+                elif (".doc"  in i or".docx" in i or ".pdf" in i or ".txt" in i) : 
                     shutil.move( filetobemoved , r"C:\Users\hp\Desktop\PYTHON ORGANISATION FOLDER\Documents")
-                if (".rar"  in i or".zip" in i or ".zar" in i or ".arj" in i) : 
+                elif (".rar"  in i or".zip" in i or ".zar" in i or ".arj" in i) : 
                     shutil.move( filetobemoved , r"C:\Users\hp\Desktop\PYTHON ORGANISATION FOLDER\Compressed")      
                 else :
                     shutil.move( filetobemoved , r"C:\Users\hp\Desktop\PYTHON ORGANISATION FOLDER\Misc")
-    
-    
